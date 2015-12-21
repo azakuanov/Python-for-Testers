@@ -1,4 +1,4 @@
 def print_smth (name):
-    print(name)
+    print(name * 5)
 
-print_smth("vsem Privet!" * 5)
+print_smth("vsem Privet!")
