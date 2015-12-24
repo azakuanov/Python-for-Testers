@@ -1,13 +1,13 @@
 from model.group import Group
+import time
 
 
 def test_add_group(app):
-    app.session.login(username="admin", password ="secret")
     app.group.create_new_group(Group(name = "RandomName", header = "RandomHeader", footer = "RandomFooter"))
-    app.session.logout()
+   # time.sleep(5)
+
 
 def test_add_empty_group(app):
-    app.session.login(username="admin", password ="secret")
     app.group.create_new_group(Group(name = "", header = "", footer = ""))
-    app.session.logout()
+
 
