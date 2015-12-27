@@ -9,11 +9,19 @@ class ContactHelper:
 
     def open_home_page (self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
+        if not (wd.current_url.endswith("/addressbook/") and len(wd.find_elements_by_name("searchstring")) > 0):
+            wd.find_element_by_link_text("home").click()
+
 
     def return_to_home_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
+        if not (wd.current_url.endswith("/addressbook/") and len(wd.find_elements_by_link_text("home page")) > 0):
+            wd.find_element_by_link_text("home page").click()
+
+    def go_to_create_contact_page(self):
+        wd = self.app.wd
+        if not (wd.current_url.endswith("/edit.php") and len(wd.find_elements_by_name("submit")) > 0):
+            wd.find_element_by_link_text("add new").click()
 
     def delete_first_contact(self):
         wd = self.app.wd
@@ -21,16 +29,11 @@ class ContactHelper:
         self.select_first_contact()
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
-        self.return_to_home_page()
+
 
     def select_first_contact(self):
         wd = self.app.wd
         wd.find_element_by_xpath("//td/input").click()
-
-
-    def go_to_create_contact_page(self):
-        wd = self.app.wd
-        wd.find_element_by_link_text("add new").click()
 
     def fill_contact_fields(self, contact):
         wd = self.app.wd
@@ -55,6 +58,7 @@ class ContactHelper:
         self.fill_contact_fields(contact)
         # click submit button
         wd.find_element_by_name("submit").click()
+        self.return_to_home_page()
 
 
     def modify_contact (self, contact):
@@ -65,6 +69,7 @@ class ContactHelper:
         wd.find_element_by_xpath("//img[@alt='Edit']").click()
         self.fill_contact_fields(contact)
         wd.find_element_by_name("update").click()
+        self.return_to_home_page()
 
     def count (self):
         wd = self.app.wd
