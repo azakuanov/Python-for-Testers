@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da909cc7-111a-47c8-bf0c-1e0bfa292ebf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/contact.py" afterPath="$PROJECT_DIR$/fixture/contact.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/contact.py" afterPath="$PROJECT_DIR$/model/contact.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_phones.py" afterPath="$PROJECT_DIR$/test/test_phones.py" />
     </list>
     <ignored path="Python-for-testers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/fixture/contact.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -40,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/model/contact.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+              <caret line="5" column="135" selection-start-line="5" selection-start-column="135" selection-end-line="5" selection-end-column="135" />
               <folding />
             </state>
           </provider>
@@ -49,8 +51,8 @@
       <file leaf-file-name="test_phones.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_phones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10493827">
-              <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.14718615">
+              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -106,16 +108,16 @@
         <option value="$PROJECT_DIR$/test/test_modify_group.py" />
         <option value="$PROJECT_DIR$/test/test_modify_contact.py" />
         <option value="$PROJECT_DIR$/model/contact.py" />
-        <option value="$PROJECT_DIR$/test/test_phones.py" />
         <option value="$PROJECT_DIR$/fixture/contact.py" />
+        <option value="$PROJECT_DIR$/test/test_phones.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1598" />
+    <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -143,7 +145,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,6 +207,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,31 +222,7 @@
       <recent name="C:\Users\Azakuanov\Desktop\Python\Python-for-testers\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_phones.py">
-    <configuration default="false" name="py.test in test_delete_contact.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python-for-testers" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/test_delete_contact.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in test_phones_oh_home_page">
     <configuration default="false" name="py.test in test_modify_contact.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,30 +241,6 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/test/test_modify_contact.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_del_group.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python-for-testers" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/test_del_group.py" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
@@ -339,6 +293,54 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_phones_oh_view_page" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-for-testers" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_phones.py" />
+      <option name="keywords" value="test_phones_oh_view_page" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_phones_oh_home_page" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-for-testers" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_phones.py" />
+      <option name="keywords" value="test_phones_oh_home_page" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -464,19 +466,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_group.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_phones.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_group.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_phones.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_phones_oh_view_page" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_phones_oh_home_page" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_phones.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_group.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_phones_oh_home_page" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_phones.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_phones_oh_view_page" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_group.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact.py" />
       </list>
     </recent_temporary>
   </component>
@@ -494,48 +496,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 22h 46m 34s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.05 at 20h 01m 47s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 22h 47m 47s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.05 at 20h 02m 37s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 22h 49m 08s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.05 at 20h 04m 56s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 22h 56m 49s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.05 at 20h 08m 42s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 22h 59m 13s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.05 at 20h 19m 25s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 23h 08m 10s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.05 at 20h 20m 01s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 23h 08m 43s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.06 at 20h 11m 47s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 23h 09m 26s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.06 at 20h 31m 08s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 23h 11m 33s.xml">
-      <configuration name="py.test in test_phones.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_phones_oh_home_page - 2016.01.06 at 20h 31m 32s.xml">
+      <configuration name="py.test in test_phones_oh_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_phones_py - 2015.12.29 at 23h 46m 22s.xml">
+    <history-entry file="py_test_in_test_phones_py - 2016.01.05 at 19h 57m 11s.xml">
       <configuration name="py.test in test_phones.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="1" y="1" width="1598" height="858" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31668773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3449198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -545,6 +546,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -570,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="36" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,9 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,9 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09053498">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5298103">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,9 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,7 +898,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_delete_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -949,22 +925,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_delete_contact.py">
+    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,25 +938,15 @@
     <entry file="file://$PROJECT_DIR$/model/contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+          <caret line="5" column="135" selection-start-line="5" selection-start-column="135" selection-end-line="5" selection-end-column="135" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_phones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10493827">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.14718615">
+          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
           <folding />
         </state>
       </provider>
