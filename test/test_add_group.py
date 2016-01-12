@@ -1,8 +1,8 @@
 from model.group import Group
 
 
-def test_add_group(app, json_groups):
-    group = json_groups
+def test_add_group(app, json_test):
+    group = json_test
     old_groups = app.group.get_group_list()
     app.group.create_new_group(group)
     assert len(old_groups) + 1 == app.group.count()
