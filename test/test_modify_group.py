@@ -2,6 +2,9 @@ from model.group import Group
 from random import randrange
 
 
+def test_dell(app):
+    app.group.delete_all_groups()
+
 def test_modify_group_name(app):
     old_groups = app.group.get_group_list()
     if app.group.count() == 0:
