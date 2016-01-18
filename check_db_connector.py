@@ -1,14 +1,13 @@
 import mysql.connector
-from model.group import Group
+from fixture.orm import ORMFixture
 
 
-connection = mysql.connector.connect(host="127.0.0.1", database = "addressbook", user = "root", password="")
+db = ORMFixture(host="127.0.0.1", name = "addressbook", user = "root", password="")
 
 try:
-    cursor = connection.cursor()
-    cursor.execute("select id, firstname, middlename, lastname from addressbook")
-    for row in cursor.fetchall():
-        print(row)
+    l = db.get_contact_list()
+    for intem in l:
+        print (intem)
+    print (len(l))
 finally:
-    connection.close()
-
+    pass #db.destroy()
